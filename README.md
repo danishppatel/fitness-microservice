@@ -6,9 +6,7 @@ This repo contains two services:
 - `activityservice` — MongoDB-based activity tracking
 
 ## 🔐 Configuration
-
-Each service has a `application-template.yml` file.  
-To run locally:
+Copy `application-template.yml` to `application.yml` and fill in your local config.
 
 ```bash
 # For userservice
