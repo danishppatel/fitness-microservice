@@ -6,6 +6,7 @@ import com.fitness.mapper.ActivityMapper;
 import com.fitness.model.Activity;
 import com.fitness.repository.ActivityRepository;
 import com.fitness.service.ActivityService;
+import com.fitness.service.UserValidationService;
 import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -17,9 +18,14 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class ActivityServiceImpl implements ActivityService {
     private final ActivityRepository activityRepository;
+    private final UserValidationService userValidationService;
 
     @Override
     public ActivityResponse trackActivity(ActivityRequest request) {
+        boolean isValidUser = userValidationService.validationUser(request.getUserId());
+
+        if(!isValidUser) throw new RuntimeException("Invalid User: "+ request.getUserId());
+
         Activity activity = Activity.builder()
                 .userId(request.getUserId())
                 .type(request.getType())

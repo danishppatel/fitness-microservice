@@ -8,3 +8,8 @@ spring:
     mongodb:
       uri: mongodb://127.0.0.1:27017/YOUR_DB_NAME
       database: YOUR_DB_USERNAME
+
+eureka:
+  client:
+    serviceUrl-url:
+      defaultZone: http://localhost:YOUR_PORT/eureka
