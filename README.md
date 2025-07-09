@@ -14,3 +14,6 @@ cp userservice/src/main/resources/application-template.yml userservice/src/main/
 
 # For activityservice
 cp activityservice/src/main/resources/application-template.yml activityservice/src/main/resources/application.yml
+
+# For eureka
+cp eureka/src/main/resources/application-template.yml eureka/src/main/resources/application.yml
