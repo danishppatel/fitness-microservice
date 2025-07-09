@@ -1,0 +1,10 @@
+server:
+  port: YOUR_PORT
+
+spring:
+  application:
+    name: activityservice
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/YOUR_DB_NAME
+      database: YOUR_DB_USERNAME
