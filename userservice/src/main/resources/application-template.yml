@@ -15,5 +15,10 @@ spring:
 
 eureka:
   client:
-    serviceUrl-url:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
       defaultZone: http://localhost:YOUR_PORT/eureka
+  instance:
+    hostname: localhost               # Force to register with localhost instead of mshome.net
+    prefer-ip-address: true
