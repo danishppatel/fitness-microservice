@@ -4,20 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd77da2a-9346-4ad6-8138-7e6ac722fe8b" name="Changes" comment="">
+    <list default="true" id="fd77da2a-9346-4ad6-8138-7e6ac722fe8b" name="Changes" comment="RabbitMQ Queue sert is establish">
+      <change afterPath="$PROJECT_DIR$/gateway/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/fitness/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/fitness/GatewayApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/activityservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activityservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activityservice/src/main/java/com/fitness/domain/ActivityType.java" beforeDir="false" afterPath="$PROJECT_DIR$/activityservice/src/main/java/com/fitness/domain/ActivityType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activityservice/src/main/java/com/fitness/repository/ActivityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/activityservice/src/main/java/com/fitness/repository/ActivityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activityservice/src/main/java/com/fitness/service/impl/ActivityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/activityservice/src/main/java/com/fitness/service/impl/ActivityServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activityservice/src/main/java/com/fitness/service/impl/UserValidationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/activityservice/src/main/java/com/fitness/service/impl/UserValidationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activityservice/src/main/resources/application-template.yml" beforeDir="false" afterPath="$PROJECT_DIR$/activityservice/src/main/resources/application-template.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/fitness/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/src/main/java/com/fitness/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/fitness/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/src/main/java/com/fitness/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/resources/application-template.yml" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/src/main/resources/application-template.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ai-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +39,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;danishppatel&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/danishppatel/fitness-microservice.git&quot;,
+    &quot;accountId&quot;: &quot;06cdf4dd-98b1-41e9-ab6d-ab19dddd87dc&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -51,34 +66,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ActivityserviceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AiServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EurekaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UserserviceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/fitness-microservice/ai-service/src/main/java/com/fitness&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ActivityserviceApplication.executor": "Run",
+    "Application.AiServiceApplication.executor": "Run",
+    "Application.ConfigServerApplication.executor": "Run",
+    "Application.EurekaApplication.executor": "Run",
+    "Application.GatewayApplication.executor": "Run",
+    "Application.UserserviceApplication.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/fitness-microservice/config-server/src/main/resources/config",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "Console"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.fitness.dto" />
       <recent name="com.fitness.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\fitness-microservice\config-server\src\main\resources\config" />
       <recent name="E:\fitness-microservice\ai-service\src\main\java\com\fitness" />
       <recent name="E:\fitness-microservice\activityservice\src\main\java\com\fitness\config" />
       <recent name="E:\fitness-microservice\ai-service\src\main\resources" />
       <recent name="E:\fitness-microservice\userservice\src\main\resources" />
-      <recent name="E:\fitness-microservice\activityservice\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fitness.model" />
+      <recent name="com.fitness.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UserserviceApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.GatewayApplication">
     <configuration name="ActivityserviceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fitness.ActivityserviceApplication" />
       <module name="activityservice" />
@@ -93,6 +125,10 @@
       </method>
     </configuration>
     <configuration name="AiServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="GEMINI_API_URL" value="https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" />
+        <env name="GEMINI_API_KEY" value="AIzaSyBAU_G6aC-oXdXF5JUuvwJ4xeo3kf0wgsE" />
+      </envs>
       <option name="MAIN_CLASS_NAME" value="com.fitness.AiServiceApplication" />
       <module name="ai-service" />
       <extension name="coverage">
@@ -101,6 +137,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="Application" factoryName="Application" activateToolWindowBeforeRun="false">
+      <envs>
+        <env name="GEMINI_API_URL" value="https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" />
+        <env name="GEMINI_API_KEY" value="AIzaSyBAU_G6aC-oXdXF5JUuvwJ4xeo3kf0wgsE" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.fitness.ConfigServerApplication" />
+      <module name="config-server" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,6 +161,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="22" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.fitness.GatewayApplication" />
+      <module name="gateway" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,12 +198,20 @@
       <option name="filePath" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.ConfigServerApplication" />
+      <item itemvalue="Application.GatewayApplication" />
+      <item itemvalue="Application.ActivityserviceApplication" />
+      <item itemvalue="Application.AiServiceApplication" />
+      <item itemvalue="Application.EurekaApplication" />
+      <item itemvalue="Application.UserserviceApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ActivityserviceApplication" />
-        <item itemvalue="Application.UserserviceApplication" />
         <item itemvalue="Application.EurekaApplication" />
+        <item itemvalue="Application.ActivityserviceApplication" />
         <item itemvalue="Application.AiServiceApplication" />
+        <item itemvalue="Application.UserserviceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +223,23 @@
       <option name="presentableId" value="Default" />
       <updated>1752035422830</updated>
     </task>
+    <task id="LOCAL-00001" summary="RabbitMQ Queue sert is establish">
+      <option name="closed" value="true" />
+      <created>1752471818865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752471818866</updated>
+    </task>
+    <task id="LOCAL-00002" summary="RabbitMQ Queue sert is establish">
+      <option name="closed" value="true" />
+      <created>1752471893792</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752471893793</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,5 +252,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="RabbitMQ Queue sert is establish" />
+    <option name="LAST_COMMIT_MESSAGE" value="RabbitMQ Queue sert is establish" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/userservice/src/main/java/com/fitness/controller/UserController.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
